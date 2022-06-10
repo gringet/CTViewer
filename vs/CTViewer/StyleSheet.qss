@@ -1,0 +1,21 @@
+QWidget {
+    background-color: none;
+}
+
+QGroupBox, QTextEdit {
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 3px;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    top: 3px;
+    left: 7px;
+}
+
+QMenuBar {
+    font-size: 14px
+}
